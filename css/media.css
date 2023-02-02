@@ -1,0 +1,368 @@
+/*Small devices (portrait phones, 320px and up)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /*header*/
+    .logo {
+        width: 50%;
+    }
+    .navbar-toggler-icon {    
+        width: 40px;
+        height: 30px;    
+        border: 2px solid #0B76B2;
+        margin-left: -40px;
+    }    
+    .menu ul li a{
+        font-size: 14px;
+    }
+    /*banner*/
+    .b_content {        
+        width: 100%;
+    }
+    .b_content h1 {    
+        font-size: 32px;
+    }
+    .b_content h2 {    
+        font-size: 32px;
+    }
+    .b_content p {    
+        font-size: 16px;    
+        line-height: 24px;
+    }
+    .b_content button{
+        width: 165px;
+        height: 48px;
+    }
+    .manage {   
+        padding-left: 24px;
+    }
+    /*wireless*/
+    .single {
+        width: 90%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .single img {
+        width: 100%;
+    }
+    .single p {
+        font-size: 14px;        
+    }
+    /*ocean*/
+    .ocean{
+        background-color: #040811;.
+        padding: 20px 0 !important;  
+    }
+    .oc_single {
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .oc_single img {
+        width: 90%;
+    }
+    .oc_single p {    
+        font-size: 14px;    
+        line-height: 15px;
+    }
+    .oc_single {
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .oc_single img {
+        width: 90%;
+    }
+    .oc_single p {    
+        font-size: 14px;    
+        line-height: 15px;
+    }
+    /*footer*/
+    .f_wrapper ul li a {    
+        margin-right: 22px;
+        font-size: 13px;    
+    }
+    .f_wrapper p {            
+        margin-top: 204px;
+    }
+}
+ /*Smaller devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /*header*/    
+    .logo {
+        width: 80%;
+    }
+    .navbar-toggler-icon {    
+        width: 45px;
+        height: 35px;    
+        border: 2px solid #0B76B2;
+    }    
+    .menu ul li a{
+        font-size: 14px;
+    }
+     /*banner*/
+    .b_content {        
+        width: 100%;
+    }
+    .b_content h1 {    
+        font-size: 32px;
+    }
+    .b_content h2 {    
+        font-size: 32px;
+    }
+    .b_content p {    
+        font-size: 16px;    
+        line-height: 24px;
+    }
+    .b_content button{
+        width: 176px;
+        height: 52px;
+    }
+    .manage {   
+        padding-left: 24px;
+    }
+    .b_btn {
+        padding-bottom: 4px;
+    }
+     /*wireless*/
+    .single {
+        width: 90%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .single p {
+        font-size: 14px;        
+    }
+    /*ocean*/
+    .ocean{
+        background-color: #040811;.
+        padding: 10px 0;  
+    }
+    .oc_single {
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .oc_single img {
+        width: 76%;
+    }
+    .oc_single p {    
+        font-size: 14px;    
+        line-height: 15px;
+    }
+    /*footer*/
+    .f_wrapper ul li a {    
+        margin-right: 22px;    
+    }
+    .f_wrapper p {            
+        margin-top: 134px;
+    }      
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*header */ 
+    .logo {
+        width: 80%;
+    }    
+    .navbar-toggler-icon {    
+        width: 50px;
+        height: 40px;    
+        border: 2px solid #0B76B2;
+    }    
+    .menu ul li a{
+        font-size: 14px;
+    }
+    /*banner*/
+    .b_content {        
+        width: 55%;
+    }
+    .b_content h1 {    
+        font-size: 32px;
+    }
+    .b_content h2 {    
+        font-size: 32px;
+    }
+    .b_content p {    
+        font-size: 16px;    
+        line-height: 24px;
+    }
+    .b_content button{
+        width: 180px;
+        height: 56px;
+    }
+    .manage {   
+        padding-left: 24px;
+    }
+    .b_btn {
+        padding-bottom: 5px;
+    }
+    /*wireless*/
+    .single {
+        width: 28%;
+        text-align: center;
+        margin-top: 50px;
+    } 
+    .single img {
+        width: 100%;
+    }
+    .single p {
+        font-size: 14px;        
+    }
+    /*ocean*/
+    .oc_single {
+        width: 28%;        
+    }
+    .oc_single img {
+        width: 100%;
+    }
+    .oc_single p {    
+        font-size: 14px;    
+        line-height: 15px;
+    }
+    /*footer*/
+    .f_wrapper ul li a {    
+        margin-right: 22px;    
+    }
+    .f_wrapper p {            
+        margin-top: 60px;
+    }      
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {    
+    .logo {
+        width: 80%;
+    }    
+    .menu ul li a{
+        font-size: 16px !important;
+        margin-right: 16px;
+    }
+    /*banner*/
+    .b_content {        
+        width: 45%;
+    }
+    .b_content h1 {    
+        font-size: 32px;
+    }
+    .b_content h2 {    
+        font-size: 34px;
+    }
+    .b_content p {    
+        font-size: 17px;    
+        line-height: 24px;        
+    }
+    .b_content button{
+        width: 180px;
+        height: 56px;
+    }
+    .manage {   
+        padding-left: 24px;
+    }
+    .b_btn {
+        padding-bottom: 4px;
+    }
+    /*wireless*/
+    .single {
+        width: 29%;
+        text-align: center;
+        margin-top: 50px;
+    } 
+    .single img {
+        width: 100%;
+    }
+    .single p {
+        font-size: 14px;        
+    }
+    /*ocean*/
+    .oc_single {
+        width: 28%;        
+    }
+    .oc_single img {
+        width: 100%;
+    }
+    .oc_single p {    
+        font-size: 14px;    
+        line-height: 15px;
+    }
+    /*footer*/
+    .f_wrapper p {            
+        margin-top: 60px;
+    }
+}
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {    
+    .logo {
+        width: 90%;
+    }    
+    .menu ul li a{
+        font-size: 18px !important;
+        margin-right: 20px;
+    }
+    /*banner*/
+    .b_content p {    
+        font-size: 17px;    
+        line-height: 24px;
+        margin-right: 152px;
+    }
+    .b_content h2 {    
+        margin: 16px 0;
+    }
+    /*WIRELESS*/
+    .single {
+        width: 29%;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    } 
+    .single img {
+        width: 100%;
+    }
+    .single p {
+        font-size: 14px;        
+    }
+    .oc_single p {    
+        font-size: 15px;        
+    }
+    /*footer*/
+    .f_wrapper p {            
+        margin-top: 60px;
+    }
+}
+ /*Extra extra large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px){
+     .logo {
+        width: 100%;
+    }    
+    .menu ul li a{
+        font-size: 18px !important;
+        margin-right: 40px;
+    }
+    /*banner*/
+    .b_content p {    
+        font-size: 17px;    
+        line-height: 24px;
+        margin-right: 152px;
+    }
+    .b_content h2 {    
+        margin: 16px 0;
+    }
+    /*WIRELESS*/
+    .single {
+        width: 29%;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    } 
+    .single img {
+        width: 100%;
+    }
+    .single p {
+        font-size: 14px;        
+    }
+    /*footer*/
+    .f_wrapper ul li a {
+        font-size: 16px;
+        margin-right: 60px;
+        margin-left: 30px;
+    }
+    .f_wrapper p {            
+        margin-top: 60px;
+    }
+}
